@@ -9,7 +9,7 @@ ticker = st.sidebar.text_input("Enter Stock Ticker Symbol (e.g., INFY)", "INFY")
 exchange = st.sidebar.text_input("Enter Exchange (e.g., NSE)", "NSE")
 
 # API URL (use the deployed URL of your Flask API here)
-api_url = f'http://127.0.0.1:5000/get_stock_price?ticker={ticker}&exchange={exchange}'
+api_url = f'http://https://flask-api-2-mgs8.onrender.com/get_stock_price?ticker=INFY&exchange=NSE/get_stock_price?ticker={ticker}&exchange={exchange}'
 
 # Fetch Stock Price
 try:
